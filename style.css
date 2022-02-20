@@ -4,3 +4,6 @@ body{
 h1{
     font-size: 50px;
 }
+.fancy-color{
+    color: rgb(175, 18, 6);
+}
