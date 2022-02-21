@@ -7,3 +7,12 @@ h1{
 .fancy-color{
     color: rgb(175, 18, 6);
 }
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
