@@ -8,7 +8,7 @@ h1{
 .fancy-color{
     color: rgb(175, 18, 6);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -36,4 +36,19 @@ section{
     background-image: url(Style/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right center;
+}
+.experience-item{
+    box-shadow: 10px 10px 10px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(Style/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
