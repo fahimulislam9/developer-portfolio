@@ -43,6 +43,7 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 15px;
+    border-radius: 5px;
 }
 h2{
     font-size: 40px;
@@ -51,4 +52,17 @@ h2{
     background-image: url(Style/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left bottom;
+}
+#web-dev{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#ame-dev{
+    border-left: 6px solid ;
+    border-image: linear-gradient(brown purple);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
